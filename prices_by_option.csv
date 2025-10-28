@@ -1,0 +1,2 @@
+address,geometry,hex_id,nearest,knn10_uniform,IDW_10,radius_1000,knn5_uniform
+"20, Maynard Place, Cambridge, Middlesex County, Massachusetts, 02163, United States of America",POINT (230331.47182932892 902854.000668358),8a2a30671c8ffff,456.0,415.9,436.58184786146325,456.0,405.8

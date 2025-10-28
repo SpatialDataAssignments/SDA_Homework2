@@ -24,7 +24,7 @@ table=url(tablelink)
 
 ```
 
-## Sidebar {.sidebar}
+## Project Descriptio: {.sidebar}
 
 **Task:** Determine the appropriate nightly rate to charge for a home rental on AirBNB using point interpolation. This code interpolated the prices from AirBnbs with similar characteristics to any other location in between.
 
@@ -36,7 +36,7 @@ table=url(tablelink)
 
 ## Column {.tabset .tabset-fade}
 
-### Point Interpolation Map:
+### Point interpolation map of Cambridge, MA
 
 ```{r}
 
@@ -44,7 +44,9 @@ readRDS(map)
 
 ```
 
-### Table of difference point interpolation approaches:
+### Table with nightly rate recommendation
+
+**Price:** Using Inverse Distance Weighting (IDW) with the 10 closest units, the recommended price per night is \$436.58
 
 ```{r}
 readRDS(table)

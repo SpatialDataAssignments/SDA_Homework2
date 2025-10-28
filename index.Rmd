@@ -1,0 +1,98 @@
+---
+title: "Homework #1: Thematic Maps"
+author: Haley Chinander
+output:
+  flexdashboard::flex_dashboard:
+    navbar:
+      - { icon: "fa-github", href: "https://github.com/SpatialDataAssignments/SDA_Homework1.git", align: right }
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) 
+
+#Map 1A
+map1alink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot1_a.rds'
+
+map1a=url(map1alink)
+
+#Map 1B
+
+map1blink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot1_b.rds'
+
+map1b=url(map1blink)
+
+#Map 2A
+
+map2alink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot2_a.rds'
+
+map2a=url(map2alink)
+
+#Map 2B
+
+map2blink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot2_b.rds'
+
+map2b=url(map2blink)
+
+#Map 3A
+
+map3alink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot3_a.rds'
+
+map3a=url(map3alink)
+
+#Map 3B
+
+map3blink='https://github.com/SpatialDataAssignments/SDA_Homework1/raw/refs/heads/main/plot3_b.rds'
+
+map3b=url(map3blink)
+
+
+
+```
+
+## Sidebar {.sidebar}
+
+Thematic maps of Europe showing mobile user subscriptions by country.
+
+## Column {.tabset .tabset-fade}
+
+### Map 1: Static DDM
+
+```{r}
+
+readRDS(map1a)
+
+```
+
+### Map 1B: Interactive DDM
+
+```{r}
+readRDS(map1b)
+```
+
+
+### Map 2: Static PSM
+
+```{r}
+readRDS(map2a)
+```
+
+### Map 2B: Interactive PSM
+
+```{r}
+readRDS(map2b)
+```
+
+
+### Map 3: Static Choro
+
+```{r}
+readRDS(map3a)
+```
+
+
+### Map 3B: Interactive Choro
+
+```{r}
+readRDS(map3b)
+```
+

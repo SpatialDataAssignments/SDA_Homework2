@@ -26,11 +26,17 @@ table=url(tablelink)
 
 ## Sidebar {.sidebar}
 
-Thematic maps of Europe showing mobile user subscriptions by country.
+**Task:** Determine the appropriate nightly rate to charge for a home rental on AirBNB using point interpolation. This code interpolated the prices from AirBnbs with similar characteristics to any other location in between.
+
+**Interpolation approach:** Inverse Distance Weighting, using 10 closest units.
+
+**Estate address:** 20 Maynard Pl, Cambridge, MA 02138
+
+**Characteristics**: The rental is an entire home with 3 bedrooms and 3 baths.
 
 ## Column {.tabset .tabset-fade}
 
-### Map 1"
+### Point Interpolation Map:
 
 ```{r}
 
@@ -38,7 +44,7 @@ readRDS(map)
 
 ```
 
-### Table:
+### Table of difference point interpolation approaches:
 
 ```{r}
 readRDS(table)
